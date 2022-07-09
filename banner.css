@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+:root{
+--banner-color:rgb(254, 252, 249);
+--menu-icon-color:#f9d455;
+--purple-color:#7a60ec;
+--font-family: 'Inter', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    font-family: var(--font-family);
+    justify-content: center;
+    align-items: center;
+   
+    position: relative;
+    background-color: #fff;
+}
+.header_container{
+    display: flex;
+   
+
+    flex-direction: column;
+    
+
+    
+    width: 360px;
+    height: 800px;
+    background-color: var(--banner-color);
+    gap: 2rem;
+    padding: 1rem;
+    
+}
+
+.button_contactme{
+    display: flex;
+    
+    align-self: center;
+
+}
+ 
+
+.menu {
+    display: flex;
+    justify-content: end;
+    
+  
+    
+}
+ 
+
+
+.header_container h1{
+
+    font-weight: 600;
+    font-size:2.8em;
+    
+}
+.banner_content_header{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.banner_content_header h2{
+ font-weight: 400;
+
+}
+.img_and_description_box{
+    display: grid;
+   
+    grid-template-columns: 200px 200px;
+   
+    gap: 1.4rem;
+}
+.img_perfil_container{
+ 
+   
+  background-size: cover;
+  
+
+   
+}
+
+.img_perfil_container img{
+
+    height: 80%;
+    width: 100%;
+    
+}
+.content_description_box{
+    display: flex;
+  
+    flex-direction: column;
+    gap: 1rem;
+}
+.content_description_box .description_letters{
+
+    width: 100px;
+   
+    display: flex;
+  
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.content_description_box  .description_letters p:nth-child(2) {
+    font-weight: 400;
+   color: rgb(139, 139, 139);
+    
+
+}
+.content_description_box .description_letters span {
+    color: var(--purple-color);
+    opacity: 100%;
+    
+
+}
+
+.content_description_box .icons_sm{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.1rem;
+   gap: .5rem;
+    
+    width: 70px;
+    height: 200px
+
+}
+.content_description_box .icons_sm svg{
+
+  width: 60%;
+  height:20%;
+ 
+  padding: 0.5rem;
+  border-radius: 50%;
+
+  background-color: var(--purple-color);
+    
+}
+.icons_sm img{
+  padding: 2rem;
+}
+
+.button_contactme{
+   
+display: flex;
+justify-content: center;
+gap: 1rem;
+height: 3rem;
+width: 17rem;
+
+background-color: var(--purple-color);
+
+
+}
+
+
+
+.button_contactme input{
+
+border: 0;
+background-color: var(--purple-color);
+    font-weight: 600;
+    font-size: 1em;
+    
+    color: var(--banner-color);
+    
+}
