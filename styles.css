@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+:root{
+--banner-color:rgb(254, 252, 249);
+--menu-icon-color:#f9d455;
+--purple-color:#7a60ec;
+--font-family: 'Inter', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    font-family: var(--font-family);
+    justify-content: center;
+    align-items: center;
+   
+    position: relative;
+    background-color: #fff;
+}
+
+
+.principal_container{
+    display: flex;
+    flex-direction: column;
+}
+.header_container{
+    display: flex;
+   
+
+    flex-direction: column;
+    
+
+    
+    width: 360px;
+    height: 800px;
+    background-color: var(--banner-color);
+    gap: 2rem;
+    padding: 1rem;
+    
+}
+
+.button_contactme{
+    display: flex;
+    
+    align-self: center;
+
+}
+ 
+
+.menu {
+    display: flex;
+    justify-content: end;
+    
+  
+    
+}
+ 
+
+
+.header_container h1{
+
+    font-weight: 600;
+    font-size:2.8em;
+    
+}
+.banner_content_header{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.banner_content_header h2{
+ font-weight: 400;
+
+}
+.img_and_description_box{
+    display: grid;
+   
+    grid-template-columns: 200px 200px;
+   
+    gap: 1.4rem;
+}
+.img_perfil_container{
+ 
+   
+  background-size: cover;
+  
+
+   
+}
+
+.img_perfil_container img{
+
+    height: 80%;
+    width: 100%;
+    
+}
+.content_description_box{
+    display: flex;
+  
+    flex-direction: column;
+    gap: 1rem;
+}
+.content_description_box .description_letters{
+
+    width: 100px;
+   
+    display: flex;
+  
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.content_description_box  .description_letters p:nth-child(2) {
+    font-weight: 400;
+   color: rgb(139, 139, 139);
+    
+
+}
+.content_description_box .description_letters span {
+    color: var(--purple-color);
+    opacity: 100%;
+    
+
+}
+
+.content_description_box .icons_sm{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.1rem;
+   gap: .5rem;
+    
+    width: 70px;
+    height: 200px
+
+}
+.content_description_box .icons_sm svg{
+
+  width: 60%;
+  height:20%;
+ 
+  padding: 0.5rem;
+  border-radius: 50%;
+
+  background-color: var(--purple-color);
+    
+}
+
+.content_description_box .icons_sm svg:nth-child(1){
+
+    width: 60%;
+    height:20%;
+   
+    padding: 0.5rem;
+    border-radius: 50%;
+  
+    background-color: var(--purple-color);
+      
+  }
+.icons_sm img{
+  padding: 2rem;
+}
+
+.button_contactme{
+   
+display: flex;
+justify-content: center;
+gap: 1rem;
+height: 3rem;
+width: 17rem;
+
+background-color: var(--purple-color);
+
+
+}
+
+
+
+.button_contactme input{
+
+border: 0;
+background-color: var(--purple-color);
+    font-weight: 600;
+    font-size: 1em;
+    
+    color: var(--banner-color);
+    
+}
+
+
+p{
+
+    opacity: 50%;
+}
+.experience_skills_container{
+    display: flex;
+   
+
+    flex-direction: column;
+    background-color: var(--menu-icon-color);
+
+    
+    width: 360px;
+height: 1000px;
+
+    gap: 2rem;
+    padding: 1.7rem;
+    
+}
+.experience_skills_header_container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+
+}
+
+.experience_skills_header_container h1{
+
+    font-weight: 600;
+    font-size: 2.3em;
+    
+}
+.experience_content_container{
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.experience_content_container h3{
+
+    font-size: 1.5em;
+}
+
+.experience_box{
+    display: flex;
+    gap: 1.3rem;
+    padding-bottom: .9rem;
+   
+    
+}
+
+#experience_box_1{
+   
+    border-bottom: 2px solid grey;
+}
+
+
+#experience_box_2{
+    border-bottom: 2px solid grey;
+}
+
+.experience_box h3{
+    font-size: .8em;
+}
+.skills_content_container{
+ display: flex;
+ flex-direction: column;
+ gap: 2rem;   
+}
+.skills_content_container h2{
+    font-size: 1.3em;
+}
+
+
+.icons_skills_container{
+
+   
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+   
+    
+}
+
+.icon_description_skills_box{
+    display: flex;
+    
+   flex-direction: column;
+
+  text-align: center;
+    align-items: center;
+
+}
+
+
+
+.portfolio_examples_container{
+    display: flex;
+   
+
+    flex-direction: column;
+    background-color: var(--banner-color);
+
+    
+    width: 360px;
+    height: 1000px;
+
+    gap: 2rem;
+    padding: 1.7rem;
+    
+}
+.examples_works_img_descriptions{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.portfolio_examples_container h1{
+
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.examples_works_img_descriptions h4{
+    padding: 10px;
+}
+.example h4{
+
+    font-weight: 200;
+    font-size: 1.2em;
+    color: var(--purple-color);
+
+}
+.example{
+
+
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+
+
+.contact_container{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: var(--banner-color);
+    gap: 1rem;
+    
+    width: 360px;
+    height: 325px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    
+    padding: 44px;
+    
+}
+.icons_contanct_information{
+    display: flex;
+    gap: 3rem;
+
+
+}
+.icons_contanct_information h4{
+
+    font-size: .8rem;
+    font-weight: 600;
+  justify-content: center;
+  
+    align-content: center;
+   
+}
+.contact_box{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: .5rem;
+   
+}
+.icons_contanct_information h4{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+}
+.icons_contanct_information p{
+
+    font-size: .7rem;
+    opacity: 40%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.icon_telephone{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  
+ 
+height: 100px;
+width: 100px;
+background-color: #f8f3ef;
+border-radius: 50%;
+padding: .4rem;
+}
+.icon_telephone svg{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 100vh;
+}
+
+
+.icon_mail{
+    display: flex;
+    flex-direction: column;
+    
+    align-self: center;
+height: 100px;
+width: 100px;
+padding: .4rem;
+background-color: #f8f3ef;
+border-radius: 50%;
+}
+
+
+.icon_mail svg{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 100vh;
+}
+
+
+
